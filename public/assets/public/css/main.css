@@ -1452,3 +1452,6 @@ button[type="submit"].btn-send:hover{
     -o-transition: opacity 1s;
     opacity: 0.8;
 }
+.display{
+    display: none;
+}

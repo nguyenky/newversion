@@ -89,7 +89,7 @@
   @yield('angularjs')
   <script type="text/javascript">
     $(document).ready(function(){
-      // $("#hotnew").removeClass("display");
+      $("#hotnew").removeClass("display");
     });
   </script>
 </body>
