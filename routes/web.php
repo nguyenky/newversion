@@ -17,7 +17,8 @@
 //     return view('public.index');
 // });
 Route::get('/admin',function(){
-	return view('admin.index');
+	return view('admin.dashboard');
+	// dd('asdsd');
 });
 // Route::get('/upload',function(){
 // 	// return view('public.index');
