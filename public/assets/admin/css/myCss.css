@@ -246,3 +246,6 @@ form .progress {
     transform: translate(-50%, -50%);
     font-size: 18px;
 }
+.display{
+	display: none;
+}

@@ -87,5 +87,10 @@
 <script src="assets/storage/angular/angular.js"></script>
 <script src="assets/public/newAngularjs/main.js"></script>
   @yield('angularjs')
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#news-slider").removeClass("display");
+    });
+  </script>
 </body>
 </html>
