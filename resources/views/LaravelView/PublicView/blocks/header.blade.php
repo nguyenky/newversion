@@ -38,8 +38,8 @@
 		<header id="header" class="tg-header haslayout">
 			<div class="topbar haslayout">
 				<div class="container">
-					<div class="new-slides pull-left col-lg-4 col-md-5 col-sm-6 col-xs-6">
-						<div id="news-slider" class="display">
+					<div id="hotnew" class="new-slides pull-left col-lg-4 col-md-5 col-sm-6 col-xs-6 display">
+						<div id="news-slider">
 							<div class="item">
 								<a href="" ng-click="redirec(latest[0])"><p>@{{latest[0].name | limitTo:50}}</p></a>
 							</div>
