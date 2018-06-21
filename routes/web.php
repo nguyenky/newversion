@@ -11,6 +11,7 @@
 |
 */
 // use Intervention\Image\Image;
+use Illuminate\Http\Request;
  use Intervention\Image\Facades\Image;
  use App\Models\News;
 // Route::get('/', function () {
