@@ -95,3 +95,8 @@ Route::get('/update',function(){
 	// }
 	// dd($news);
 });
+
+Route::get('getcode',function(Request $request){
+	$input = $request->all();
+	dd($input);
+});
