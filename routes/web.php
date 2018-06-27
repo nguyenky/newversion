@@ -42,6 +42,10 @@ Route::group(['namespace'=>'LaravelController\PublicController'],function(){
 
 });
 
+Route::get('test-git',function(){
+	dd('uchiha');
+});
+
 
 Route::get('/update',function(){
 	$news = News::where('category_id',3)->get();
