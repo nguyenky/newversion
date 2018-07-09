@@ -110,7 +110,7 @@ Route::get('/get/get-categories',function(){
 	return $cats->toArray();
 });
 Route::get('/get/get-news',function(){
-	$news = \App\Models\New::all();
+	$news = \App\Models\News::all();
 	return $news->toArray();
 });
 Route::get('/get/get-posts',function(){
