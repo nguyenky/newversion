@@ -118,5 +118,5 @@ Route::get('/get/get-news',function(){
 Route::get('/get/get-posts',function(){
 	$news = \App\Models\Post::all();
 	return response()
-            ->json($new->toArray());
+            ->json($news->toArray());
 });
