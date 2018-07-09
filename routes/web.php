@@ -107,13 +107,16 @@ Route::get('getcode',function(Request $request){
 });
 Route::get('/get/get-categories',function(){
 	$cats = \App\Models\Category::all();
-	return $cats->toArray();
+	return response()
+            ->json($cats->toArray());
 });
 Route::get('/get/get-news',function(){
 	$news = \App\Models\News::all();
-	return $news->toArray();
+	return response()
+            ->json($news->toArray());
 });
 Route::get('/get/get-posts',function(){
 	$news = \App\Models\Post::all();
-	return $news->toArray();
+	return response()
+            ->json($new->toArray());
 });
