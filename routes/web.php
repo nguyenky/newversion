@@ -105,15 +105,15 @@ Route::get('getcode',function(Request $request){
 	$input = $request->all();
 	dd($input);
 });
-Route::get('get-categories',function(){
+Route::get('/get/get-categories',function(){
 	$cats = \App\Models\Category::all();
 	return $cats->toArray();
 });
-Route::get('get-news',function(){
+Route::get('/get/get-news',function(){
 	$news = \App\Models\New::all();
 	return $news->toArray();
 });
-Route::get('get-posts',function(){
+Route::get('/get/get-posts',function(){
 	$news = \App\Models\Post::all();
 	return $news->toArray();
 });
