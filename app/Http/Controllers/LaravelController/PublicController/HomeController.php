@@ -69,7 +69,6 @@ class HomeController extends Controller
         $this->newsRepository = $newsRepo;
     }
     public function home(Request $request){
-        dd($request->all());
       $posts = $this->postRepository->getPostPublic();
 
       $news = $this->newsRepository->getNewsHome();
