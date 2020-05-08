@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:type" content="article" /><meta property="og:title" content=" quà ý nghĩa nhất" /><meta property="og:url" content="http://www.tinthethao.com.vn/hlv-heerenveen-do-la-dieu-sai-lam-khi-chieu-mo-doan-van-hau-d581237.html" /><meta property="og:description" content="HLV Johnny Jansen của SC Heerenveen đã chỉ ra 1 sai lầm khi chiêu mộ Đoàn Văn Hậu." /><meta property="og:image" content="http://farm1.staticflickr.com/800/27486637028_1b2b527ab6_o.png"/><meta property="article:author" content="https://www.facebook.com/TinTheThao.com.vn" /><meta property="article:section" content="News" /><meta property="article:tag" content="Đoàn Văn Hậu,SC Heerenveen,Johnny Jansen" />
+	<meta property="og:image" content="http://farm1.staticflickr.com/800/27486637028_1b2b527ab6_o.png"/>
 	<title>Yes ! For me !!!</title>
 	<link rel="icon" href="assets/icon-logo.jpg"/>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
